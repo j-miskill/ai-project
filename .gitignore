@@ -1,2 +1,4 @@
 AIENV/
 .idea/
+data/*
+.DS_Store
