@@ -13,6 +13,10 @@ To develop a system that uses machine learning to identify whether a post contai
 
 At this stage in the project, we are analyzing the outcomes from a few different machine learning/artificial intelligence methods. Specifically, we are implementing the following models: convolutional neural networks, decision trees, logistical regression, markov models, and naive bayes models.
 
+Something to quickly recognize here is our input and output formatting. First, we are not generating anything, we simply want to classify. Second, our input is text and our output is a simple classification. Further this is the simplest form of classification - binary classification. This means that we are essentially classes into two categories: a simple yes or no for the sake of this project. 
+
+For the sake of a neural network implementation, our output neurons layer would be of size two. For linear regression, we would just be attempting to find a line to separate the text into different classifications. Etc. It is helpful to think about these for the models.
+
 ## Dataset
 
 We are using a few datasets. For training: 
